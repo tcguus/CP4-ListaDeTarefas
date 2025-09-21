@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "lista-tarefas-plus",
+    "slug": "lista-tarefas-plus",
+    "owner": "tcguus",
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      "expo-web-browser",
+      "expo-localization"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+  "supportsTablet": true,
+  "bundleIdentifier": "com.seuusuario.listatarefasplus",
+  "infoPlist": {
+    "CFBundleURLTypes": [
+      { "CFBundleURLSchemes": ["com.googleusercontent.apps.819953021031-tvr0ftgi9kcofm20upq21otfhgbsa1f4"] }
+    ]
+  }
+},
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "login": "Sign in",
+  "signup": "Sign up",
+  "email": "Email",
+  "password": "Password",
+  "google": "Sign in with Google",
+  "tasks": "My Tasks",
+  "newTask": "New task",
+  "title": "Title",
+  "description": "Description",
+  "dueDate": "Due date",
+  "toggleTheme": "Toggle theme",
+  "toggleLang": "Switch language"
+}

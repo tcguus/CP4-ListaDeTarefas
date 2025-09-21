@@ -1,0 +1,14 @@
+{
+  "login": "Entrar",
+  "signup": "Cadastrar",
+  "email": "E-mail",
+  "password": "Senha",
+  "google": "Entrar com Google",
+  "tasks": "Minhas Tarefas",
+  "newTask": "Nova tarefa",
+  "title": "Título",
+  "description": "Descrição",
+  "dueDate": "Data/Hora",
+  "toggleTheme": "Trocar tema",
+  "toggleLang": "Mudar idioma"
+}
