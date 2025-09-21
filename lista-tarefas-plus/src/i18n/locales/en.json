@@ -1,14 +1,52 @@
 {
-  "login": "Sign in",
-  "signup": "Sign up",
-  "email": "Email",
-  "password": "Password",
-  "google": "Sign in with Google",
-  "tasks": "My Tasks",
-  "newTask": "New task",
-  "title": "Title",
-  "description": "Description",
-  "dueDate": "Due date",
-  "toggleTheme": "Toggle theme",
-  "toggleLang": "Switch language"
+  "titles": { "app": "Tasks Plus", "login": "Sign in", "tasks": "My Tasks" },
+  "fields": {
+    "email": "Email",
+    "password": "Password",
+    "title": "Title",
+    "description": "Description",
+    "datetime": "Date (YYYY-MM-DDTHH:mm)"
+  },
+  "actions": {
+    "login": "Sign in",
+    "signup": "Sign up",
+    "google": "Sign in with Google",
+    "logout": "Log out",
+    "addTask": "Add task",
+    "new": "New",
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "goToLogin": "Go to login",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "labels": { "done": "Done" },
+  "empty": {
+    "title": "Nothing here…",
+    "subtitle": "Create your first task and I’ll remind you on time."
+  },
+  "texts": { "notLogged": "You are not logged in." },
+  "errors": {
+    "invalidEmail": "Invalid email.",
+    "invalidEmailExample": "Invalid email. Eg: name@domain.com",
+    "missingPassword": "Password not informed.",
+    "passwordMin": "Password must be at least 6 characters.",
+    "wrongPassword": "Wrong password.",
+    "userNotFound": "User not found.",
+    "emailInUse": "Email already in use.",
+    "generic": "Auth error: {{code}}",
+    "loadTasks": "Error loading tasks.",
+    "saveTask": "Error saving task.",
+    "updateTask": "Error updating task.",
+    "deleteTask": "Error deleting task.",
+    "missingTitle": "Enter a title"
+  },
+  "toast": { "saved": "Saved!", "updated": "Updated!", "deleted": "Deleted!" },
+  "a11y": { "toggleTheme": "Toggle theme", "toggleLang": "Toggle language" },
+  "dialogs": {
+    "deleteTitle": "Delete task",
+    "deleteMessage": "Are you sure you want to delete “{{title}}”?",
+    "logoutTitle": "Log out",
+    "logoutMessage": "Are you sure you want to log out from {{email}}?"
+  }
 }

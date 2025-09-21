@@ -1,14 +1,60 @@
 {
-  "login": "Entrar",
-  "signup": "Cadastrar",
-  "email": "E-mail",
-  "password": "Senha",
-  "google": "Entrar com Google",
-  "tasks": "Minhas Tarefas",
-  "newTask": "Nova tarefa",
-  "title": "Título",
-  "description": "Descrição",
-  "dueDate": "Data/Hora",
-  "toggleTheme": "Trocar tema",
-  "toggleLang": "Mudar idioma"
+  "titles": {
+    "app": "Lista Tarefas Plus",
+    "login": "Entrar",
+    "tasks": "Minhas Tarefas"
+  },
+  "fields": {
+    "email": "E-mail",
+    "password": "Senha",
+    "title": "Título",
+    "description": "Descrição",
+    "datetime": "Data (AAAA-MM-DDTHH:mm)"
+  },
+  "actions": {
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "google": "Entrar com Google",
+    "logout": "Sair",
+    "addTask": "Adicionar tarefa",
+    "new": "Nova",
+    "save": "Salvar",
+    "saveChanges": "Salvar alterações",
+    "goToLogin": "Ir para login",
+    "cancel": "Cancelar",
+    "delete": "Excluir"
+  },
+  "labels": { "done": "Concluída" },
+  "empty": {
+    "title": "Nada por aqui…",
+    "subtitle": "Crie sua primeira tarefa e eu aviso na hora marcada."
+  },
+  "texts": { "notLogged": "Você não está logado." },
+  "errors": {
+    "invalidEmail": "E-mail inválido.",
+    "invalidEmailExample": "E-mail inválido. Ex: nome@dominio.com",
+    "missingPassword": "Senha não informada.",
+    "passwordMin": "Senha deve ter no mínimo 6 caracteres.",
+    "wrongPassword": "Senha incorreta.",
+    "userNotFound": "Usuário não encontrado.",
+    "emailInUse": "E-mail já cadastrado.",
+    "generic": "Erro de autenticação: {{code}}",
+    "loadTasks": "Erro ao carregar tarefas.",
+    "saveTask": "Erro ao salvar tarefa.",
+    "updateTask": "Erro ao atualizar tarefa.",
+    "deleteTask": "Erro ao apagar tarefa.",
+    "missingTitle": "Informe um título"
+  },
+  "toast": {
+    "saved": "Salvo!",
+    "updated": "Atualizada!",
+    "deleted": "Excluída!"
+  },
+  "a11y": { "toggleTheme": "Trocar tema", "toggleLang": "Trocar idioma" },
+  "dialogs": {
+    "deleteTitle": "Excluir tarefa",
+    "deleteMessage": "Tem certeza que deseja excluir “{{title}}”?",
+    "logoutTitle": "Sair da conta",
+    "logoutMessage": "Você tem certeza que deseja sair da conta {{email}}?"
+  }
 }
